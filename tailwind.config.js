@@ -22,7 +22,7 @@ export default {
         'mon': ['Montserrat', 'sans-serif']
       },
       backgroundImage: {
-        'banner': "url('./src/assets/images/banner.png')"
+        'banner': "url('/src/assets/images/banner.png')"
       }
     },
   },
