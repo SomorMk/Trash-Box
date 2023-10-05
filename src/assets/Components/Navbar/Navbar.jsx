@@ -40,7 +40,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className='w-full md:w-4/5'>
-                    <ul className={`absolute left-0 w-full min-h-fit py-[30px] md:py-0 md:min-h-fit bg-pri md:static md:bg-transparent md:visible md:flex md:justify-end md:items-center transition duration-1000 ease-linear ${show == true ? 'top-[-100vh]' : 'top-[70px]'}`}>
+                    <ul className={`absolute left-0 w-full min-h-fit py-[30px] md:py-0 md:min-h-fit bg-pri md:static md:bg-transparent md:visible md:flex md:justify-end md:items-center transition-all duration-300 ease-linear ${show == true ? 'top-[-100vh]' : 'top-[70px]'}`}>
                         <li onClick={home} className='mr-0 md:mr-5 lg:mr-10 text-base text-w font-medium font-mon transition ease-linear hover:text-sec cursor-pointer text-center my-5 lg:my-0'>Home</li>
                         <li onClick={work} className='mr-0 md:mr-5 lg:mr-10 text-base text-w font-medium font-mon transition ease-linear hover:text-sec cursor-pointer text-center my-5 lg:my-0'>Work</li>
                         <li onClick={service} className='mr-0 md:mr-5 lg:mr-10 text-base text-w font-medium font-mon transition ease-linear hover:text-sec cursor-pointer text-center my-5 lg:my-0'>Service</li>
